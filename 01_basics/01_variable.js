@@ -3,6 +3,7 @@ let accountEmail = "anshu@google.com"
 var accountPassword = "34231"
 
 accountcity ="Patna"
+let accountstate;
 
 //accountId = "12345"//not allowed (const not change)
 
@@ -14,4 +15,4 @@ console.log(accountId);
 Because of issue in block scope and functional scope
 */ 
 
-console.table ([accountId,accountEmail,accountPassword,accountcity])
+console.table ([accountId,accountEmail,accountPassword,accountcity,accountstate])
