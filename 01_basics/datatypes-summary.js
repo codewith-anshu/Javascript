@@ -29,3 +29,24 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp)
+
+
+// ******************************** STACK & HEAP ****************************************** //////
+// Stack (Premitive ) Heap (non premitive)
+let myInstaname = "kingofmydestiny"
+let anothername = myInstaname
+anothername = "codewithanshu"
+
+console.log(myInstaname)
+console.log(anothername)
+
+let userOne = {
+    email : "kumaranshu@google.com",
+    upi: "anshu@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "anshu@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
