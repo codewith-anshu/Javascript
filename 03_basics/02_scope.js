@@ -15,4 +15,6 @@ if (true){ // inside if "block scope "
 
 //console.log(a);
 //console.log(b);
-console.log(a);
+console.log(a); 
+
+//////PART 2 -> Scope and all/
