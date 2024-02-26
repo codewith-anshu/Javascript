@@ -32,8 +32,8 @@ JsUser.greeting = function(){
 JsUser.greetingTwo = function(){
     console.log(`Hello Js user, ${this.name}`);
 }
-console.log(JsUser.greeting())
-console.log(JsUser.greetingTwo())
+//console.log(JsUser.greeting())
+//console.log(JsUser.greetingTwo())
 
 // when we access value maximum time we use "."
 
@@ -81,10 +81,43 @@ const users = [
     },
 ]
 users[1].email
-console.log(tinderUser)
+/*console.log(tinderUser)
 
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggeIn'))
+console.log(tinderUser.hasOwnProperty('isLoggeIn'))*/
+
+/// OBJECT DE-STR & JSON AP ---////'''
+
+const course = {
+    coursname: "jsfullconcept",
+    price:"1000",
+    Instructor: "hitesh"
+}
+
+// course.Instructor
+
+const {Instructor} = course
+
+console.log(Instructor) 
+
+/*const navbar = ({company}) => {
+
+}
+
+navbar(company = "hitesh")*/ // Used in React 
+
+/// APIs //
+
+/*{
+    "name": "anshu",
+    "coursename": "jsfullconcept",
+    "price": "free"
+}*/
+[
+    {},
+    {},
+    {}
+]
