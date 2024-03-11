@@ -1,0 +1,4 @@
+/// document.getElementById('copied text')
+// To edit webpages:- 
+//document.getElementById('copied text').innerHTML ="<h1>chai aur code</h1>"
+// querrySelector gives only one value
